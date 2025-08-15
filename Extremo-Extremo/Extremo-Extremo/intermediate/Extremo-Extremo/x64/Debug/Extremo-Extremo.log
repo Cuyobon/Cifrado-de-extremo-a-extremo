@@ -1,0 +1,30 @@
+﻿  Client.cpp
+  CryptoHelper.cpp
+  main.cpp
+  NetworkHelper.cpp
+  Server.cpp
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\src\CryptoHelper.cpp(13,5): warning C4996: 'RSA_free': Since OpenSSL 3.0
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\src\CryptoHelper.cpp(16,5): warning C4996: 'RSA_free': Since OpenSSL 3.0
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\src\CryptoHelper.cpp(24,16): warning C4996: 'RSA_new': Since OpenSSL 3.0
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\src\CryptoHelper.cpp(25,3): warning C4996: 'RSA_generate_key_ex': Since OpenSSL 3.0
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\src\CryptoHelper.cpp(32,3): warning C4996: 'PEM_write_bio_RSAPublicKey': Since OpenSSL 3.0
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\src\CryptoHelper.cpp(44,19): warning C4996: 'PEM_read_bio_RSAPublicKey': Since OpenSSL 3.0
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\src\CryptoHelper.cpp(63,16): warning C4996: 'RSA_public_encrypt': Since OpenSSL 3.0
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\src\CryptoHelper.cpp(75,41): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\src\CryptoHelper.cpp(75,3): warning C4996: 'RSA_private_decrypt': Since OpenSSL 3.0
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\include\NetworkHelper.h(106,28): warning C4245: 'inicializando': conversión de 'int' en 'SOCKET'; no coinciden signed/unsigned
+  (compilando archivo de origen "src/Server.cpp")
+  
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\include\NetworkHelper.h(106,28): warning C4245: 'inicializando': conversión de 'int' en 'SOCKET'; no coinciden signed/unsigned
+  (compilando archivo de origen "src/Client.cpp")
+  
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\include\NetworkHelper.h(106,28): warning C4245: 'inicializando': conversión de 'int' en 'SOCKET'; no coinciden signed/unsigned
+  (compilando archivo de origen "src/main.cpp")
+  
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\src\Server.cpp(3,54): warning C4245: 'inicializando': conversión de 'int' en 'SOCKET'; no coinciden signed/unsigned
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\include\NetworkHelper.h(106,28): warning C4245: 'inicializando': conversión de 'int' en 'SOCKET'; no coinciden signed/unsigned
+  (compilando archivo de origen "src/NetworkHelper.cpp")
+  
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\src\NetworkHelper.cpp(37,34): warning C4244: 'argumento': conversión de 'int' a 'u_short'; posible pérdida de datos
+C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\Extremo-Extremo\src\NetworkHelper.cpp(81,34): warning C4244: 'argumento': conversión de 'int' a 'u_short'; posible pérdida de datos
+  Extremo-Extremo.vcxproj -> C:\Users\angel\Documents\GitHub\Extremo-Extremo\Extremo-Extremo\bin\x64\Extremo-Extremo_d.exe
